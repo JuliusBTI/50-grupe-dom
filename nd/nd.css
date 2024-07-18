@@ -1,0 +1,35 @@
+main {
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);  
+     
+}
+
+article {
+    border: 3px black solid;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 220px;
+}
+
+article>p {
+    border-bottom: 1px black solid;
+}
+.name {
+    font-weight: bold;
+    
+}
+
+article>a {
+    color: red;
+    background-color: aqua;
+    padding: 10;
+}
+
+article>a:hover {
+    background-color: white;
+    color: black;
+}
+
